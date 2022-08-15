@@ -1,0 +1,13 @@
+version: "3.3"
+   
+services:
+
+  infra-apache:
+    container_name: infra-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8081:80
+    tty: true
+    command: /bin/bash
