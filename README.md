@@ -21,6 +21,6 @@ nome do arquivo script do exercício "create-infra-apache.sh"
 #  http://localhost:8081/
 
 
-## Apenas para fins de testes e didático
+### Apenas para fins de testes e didático não deve ser utilizado em
 
 
